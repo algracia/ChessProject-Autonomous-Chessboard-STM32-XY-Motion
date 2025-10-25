@@ -1,3 +1,4 @@
+# ===== C / Toolchain basics =====
 # Prerequisites
 *.d
 
@@ -22,19 +23,27 @@
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+# Shared objects (incl. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
+# Executables / firmware images
 *.exe
 *.out
 *.app
 *.i*86
 *.x86_64
 *.hex
+*.bin
+*.axf
+*.srec
+
+# Listings / logs
+*.lst
+*.list
+*.log
 
 # Debug files
 *.dSYM/
@@ -51,5 +60,29 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
+# DWARF debug info
 *.dwo
+
+# ===== STM32CubeIDE / Eclipse (user-specific) =====
+.settings/
+*.launch
+# Mantener .project y .cproject para importación directa en CubeIDE:
+# !.project
+# !.cproject
+
+# ===== Build directories =====
+[Dd]ebug/
+[Rr]elease/
+[Bb]uild/
+[Oo]ut/
+# intermedios frecuentes
+**/[Oo]bj/
+**/[Ll]og/
+
+# ===== Editor & OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
