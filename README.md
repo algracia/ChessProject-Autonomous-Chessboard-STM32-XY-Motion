@@ -5,4 +5,6 @@ Autonomous chessboard: XY gantry with stepper motors and a servo-actuated magnet
 STM32/HAL C, Timers/PWM, Steppers/Servo, Endstops, UART/USART2, Python/Flask, Stockfish, python-chess, Eagle/PCB, Linux/Docker.
 
 ## Estate
-Functional Prototype. Demo Video 1: https://drive.google.com/file/d/1ilU88anA28Sm5uKsdmvKJDmgogQCD1F5/view?usp=drive_link ; Demo Video 2: https://drive.google.com/file/d/19l9fdWrFyc15zySGSjjqOn4_oBJ1EvTn/view?usp=sharing
+Functional Prototype.
+**Demo Video 1:** https://drive.google.com/file/d/1ilU88anA28Sm5uKsdmvKJDmgogQCD1F5/view?usp=drive_link
+**Demo Video 2:** https://drive.google.com/file/d/19l9fdWrFyc15zySGSjjqOn4_oBJ1EvTn/view?usp=sharing
